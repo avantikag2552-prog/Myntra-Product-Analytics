@@ -1,75 +1,77 @@
 # Myntra Product Analytics Dashboard
-![Dashboard](Dashboard\_Screenshot.png)
 
 ## Project Overview
+This project analyzes Myntra product data using R, SQL, and Power BI to uncover pricing trends, seller performance, customer ratings, and discount patterns.
 
-This project analyzes the Myntra product dataset using R, SQL, and Power BI. The objective is to understand product pricing, customer ratings, discounts, and seller performance by performing data cleaning, SQL analysis, and creating an interactive Power BI dashboard.
+## Tools & Technologies
+- R
+- SQL (MySQL)
+- Power BI
+- Excel
 
-## Tools \& Technologies
+## Project Features
+- Data Cleaning using R
+- SQL Business Analysis
+- Interactive Power BI Dashboard
+- Data Visualization
+- Business Insights
 
-- R (Data Cleaning \& EDA)
-- MySQL (Business Analysis)
-- Power BI (Dashboard)
-- GitHub
+## Dashboard Preview
 
-## Dataset
+![Dashboard](Dashboard.png)
 
-- Myntra Product Dataset
-- Total Records (After Cleaning): 252,809
+## Key Metrics
+- Total Products: 252,809
+- Average Price: ₹1.01K
+- Average Rating: 4.16
+- Average Discount: 42.04%
 - Total Sellers: 3,581
 
-## Dashboard KPIs
-
-- Total Products
-- Average Price
-- Average Rating
-- Average Discount (%)
-- Total Sellers
-
-## Dashboard Visualizations
-
+## Dashboard Insights
 - Top 10 Sellers by Product Count
 - Price Distribution
 - Rating Distribution
 - Discount Distribution
-- Price vs Rating Scatter Plot
+- Price vs Rating Analysis
 
-## Interactive Filters
+## Power BI Dashboard
 
-- Seller
-- Rating
+An interactive dashboard was developed in **Power BI** to visualize key business metrics.
 
+### Dashboard Features
+
+- KPI Cards
+  - Total Products
+  - Average Price
+  - Average Rating
+  - Average Discount
+  - Total Sellers
+
+- Visualizations
+  - Top 10 Sellers
+  - Price Distribution
+  - Rating Distribution
+  - Discount Distribution
+  - Price vs Rating Scatter Plot
+
+- Interactive Filters (Slicers)
+  - Seller
+  - Rating
+
+> **Note:** The Power BI (.pbix) file is not included because it exceeds GitHub's upload size limit. A dashboard preview is provided below.
+
+## Repository Structure
+```
+outputs/
+scripts/
+Dashboard.png
+README.md
+```
 ## Business Insights
+- Most products have ratings above 4.
+- Average discount is around 42%.
+- Product prices are concentrated in the lower price range.
+- A few sellers contribute a large share of products.
 
-- Roadster has the highest number of listed products.
-- Average product rating is 4.16, indicating generally positive customer feedback.
-- Average discount offered is 42.04%.
-- Most products fall within the lower price range.
-- Customer ratings are concentrated between 4.0 and 4.5.
-- Higher-priced products do not necessarily receive higher ratings.
-
-## Project Workflow
-
-1. Cleaned the dataset using R.
-2. Performed exploratory data analysis (EDA).
-3. Imported cleaned data into MySQL.
-4. Wrote SQL queries for business analysis.
-5. Built an interactive Power BI dashboard.
-6. Generated business insights.
-
-## Files Included
-
-- Myntra\_Product\_Analytics.pbix
-- Myntra\_clean.csv
-- SQL\_Queries.sql
-- Dashboard\_Screenshot.png
-- README.md
-
-## Power BI Dashboard File
-
-The Power BI (.pbix) file exceeds GitHub's web upload size limit.
-
-The dashboard preview is available in `Dashboard.png`.
-
-Please contact me if you would like the complete Power BI project file.
-
+## Author
+Avantika Gupta
