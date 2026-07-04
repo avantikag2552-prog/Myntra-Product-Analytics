@@ -1,0 +1,13 @@
+Business Insights
+
+1. After cleaning the dataset, 252,809 products remained for analysis.
+
+2. Most products have ratings above 4, indicating positive customer feedback.
+
+3. Some sellers have a significantly larger number of products than others.
+
+4. Most products belong to the affordable and mid-price range.
+
+5. Most valid discounts are below 70%.
+
+6. Products with a higher number of customer ratings are generally more popular.
