@@ -18,7 +18,7 @@ CREATE TABLE myntra (
 SHOW TABLES;
 
 LOAD DATA LOCAL INFILE
-'C:/Users/avant/OneDrive/Desktop/Myntra_Fashion_Analytics/outputs/Myntra_clean.csv'
+'C:/Users/avant/OneDrive/Desktop/Myntra_Product_Analytics/outputs/Myntra_clean.csv'
 INTO TABLE myntra
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
@@ -32,8 +32,6 @@ FROM myntra
 LIMIT 10;
 DESCRIBE myntra;
 
-SELECT COUNT(*) AS Total_Products
-FROM myntra;
 SELECT ROUND(AVG(price),2) AS Average_Price
 FROM myntra;
 SELECT ROUND(AVG(mrp),2) AS Average_MRP
